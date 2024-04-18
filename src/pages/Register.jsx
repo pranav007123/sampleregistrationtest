@@ -9,9 +9,9 @@ function Register() {
     address: '',
     mobile: '',
     email: '',
-    gender: '',
+    gender: 'male',
     dob: '',
-    course: ''
+    course: 'biology'
 });
 console.log(formData);
 const handleChange = (e) => {
